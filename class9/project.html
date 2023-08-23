@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylani first project Recipe App</title>
+    <link rel="stylesheet" href="project.css">
+    <script src="app.js" defer> </script>
+    <script src="./recipes.json"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1> Recipe App</h1>
+        <div class="search-form-container">
+            <input id="searchInpur" type="text" placeholder="Search here for recipes...">
+            <button id="searchbtn"> Search</button>
+        </div>
+    </header>
+    <main>
+        <section id="recipeResults">
+            <h2 class="search-results-heading"> Search </h2>
+            <div class="list-container">
+                <ul id="recipe-list"> </ul>
+            </div>
+        </section>
+
+        <section id="recipeDetails">
+            <h2> Recipe Details</h2>
+            <div id="recipeDetailsContainer"> </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>
